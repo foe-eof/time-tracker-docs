@@ -25,4 +25,4 @@ jobs:
           pip install mkdocs
 
       - name: Deploy
-        run: mkdocs gh-deploy
+        run: mkdocs gh-deploy --strict --force
